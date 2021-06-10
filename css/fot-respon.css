@@ -1,0 +1,23 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .footer-low {
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .footer-low {
+    height: 130px;
+    text-align: center;
+    padding: 30px 30px 0 30px;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+
+  .footer-list {
+    width: 100%;
+    float: left;
+  }
+}

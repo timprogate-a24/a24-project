@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.heading {
+  margin: 0 60px 0 60px;
+}
+
+.content-4 {
+  background-color: #f0f0f0;
+  padding-bottom: 50px;
+}
+
+.content-5box {
+  display: flex;
+  margin: 0 40px 0 40px;
+}
+
+.box {
+  flex: auto;
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four,
+.img-five {
+  width: 300px;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 380px;
+  background-repeat: no-repeat;
+}
+
+.img-one {
+  background-image: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741678/logo-design-2x.png);
+}
+
+.img-two {
+  background-image: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/ae11e2d45410b0eded7fba0e46b09dbd-1598561917003/wordpress-2x.png);
+}
+
+.img-three {
+  background-image: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741669/voiceover-2x.png);
+}
+
+.img-four {
+  background-image: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741663/animated-explainer-2x.png);
+}
+
+.img-five {
+  background-image: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741674/translation-2x.png);
+}
+
+.box-title {
+  margin: 20px 20px;
+  color: white;
+}
+
+/* Div 3 */
+
+.content-3 {
+  background-color: #f0f0f0;
+}
+
+.box-partner {
+  display: flex;
+  margin: 0 25%;
+  padding: 30px 0px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+span {
+  color: rgba(89, 89, 89, 0.398);
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.box-partner span {
+  flex: auto;
+  width: 10%;
+}
+
+.set-img {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.partner-1 {
+  background-image: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/facebook.543cf10.png);
+}
+
+.partner-2 {
+  background-image: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/google.aaaa0ad.png);
+}
+
+.partner-3 {
+  background-image: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/netflix.3cb353a.png);
+}
+
+.partner-4 {
+  background-image: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/pandg.128c0d9.png);
+}
+
+.partner-5 {
+  background-image: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/paypal.9e4defc.png);
+}

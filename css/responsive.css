@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+  .content-5box {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 30%;
+    margin: 10px 10px;
+  }
+
+  .box-title {
+    color: white;
+  }
+
+  .box-partner {
+    flex-wrap: wrap;
+    margin: 0 10%;
+  }
+
+  .box-partner span {
+    width: 30%;
+  }
+
+  .partner-title {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .content-5box {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 80%;
+    margin: 10px auto;
+
+    text-decoration: ;
+    max-width: 400px;
+  }
+}
